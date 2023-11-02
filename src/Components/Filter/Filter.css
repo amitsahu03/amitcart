@@ -1,0 +1,37 @@
+.filter_wrapper {
+  padding: 1rem 1rem;
+}
+
+.filter_heading {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.filter_heading p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+.filter_heading label {
+  margin: 0.25rem 0;
+}
+
+.filter_heading input {
+  cursor: pointer;
+}
+
+.filter_clear_btn {
+  background-color: var(--primary-color);
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.filter_clear_btn:hover {
+  cursor: pointer;
+}

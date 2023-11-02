@@ -1,0 +1,189 @@
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+/* Grid CSS */
+.grid {
+  display: grid;
+}
+
+.grid-col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Width CSS */
+
+.w-full {
+  width: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.card-shadow {
+  box-shadow: var(--shadow);
+}
+
+/* link */
+.link {
+  text-decoration: none;
+}
+/* container styles */
+
+/* Margin CSS */
+.m-1 {
+  margin: var(--m-1);
+}
+.mx-1 {
+  margin: 0 var(--m-1);
+}
+.my-1 {
+  margin: var(--m-1) 0;
+}
+
+.ml-1 {
+  margin-left: var(--m-1);
+}
+.mr-1 {
+  margin-right: var(--m-1);
+}
+
+.m-2 {
+  margin: var(--m-2);
+}
+.mx-2 {
+  margin: 0 var(--m-2);
+}
+.my-2 {
+  margin: var(--m-2) 0;
+}
+.mr-2 {
+  margin-right: var(--m-2);
+}
+.ml-2 {
+  margin-left: var(--m-2);
+}
+
+.m-auto {
+  margin: auto;
+}
+
+/* Padding CSS */
+.p-1 {
+  padding: var(--p-1);
+}
+.px-1 {
+  padding: 0 var(--p-1);
+}
+.py-1 {
+  padding: var(--p-1) 0;
+}
+.p-4 {
+  padding: var(--p-4);
+}
+
+.px-4 {
+  padding: var(--p-4);
+}
+
+.py-4 {
+  padding: var(--p-4) 0;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.font-semibold {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.font-bold {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.border-lightgrey {
+  border: 1px solid lightgrey;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-lg {
+  border-bottom: 0.5rem;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.san-serif {
+  font-family: sans-serif;
+}
+.text-xs {
+  font-size: 1rem;
+}
+.text-sm {
+  font-size: 1.25rem;
+}
+
+.page-heading {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem 0.25rem;
+}

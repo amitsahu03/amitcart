@@ -1,0 +1,50 @@
+.login_form_container,
+.signup_form_container {
+  margin-top: 4rem;
+  font-family: sans-serif;
+}
+
+.login_form,
+.signup_form {
+  width: 100%;
+  max-width: 25rem;
+  margin: 0rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.login_form_wrapper,
+.signup_form_wrapper {
+  padding: 1rem 1.5rem;
+}
+
+.login_form_title,
+.signup_form_title {
+  text-align: center;
+  padding: 0.25rem;
+  margin: 0.5rem 0;
+}
+
+.sign_up_link {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.icon {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.auth_error {
+  font-size: 1rem;
+  font-weight: 600;
+  color: red;
+  text-align: initial;
+  padding: 0.25rem;
+}
+
+.auth_error_icon {
+  font-size: 1.2rem;
+  margin: 0 4px;
+  font-weight: bold;
+}
