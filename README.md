@@ -1,5 +1,5 @@
 <div align="center" >
-<h1>TechGiz</h1>
+<h1>Amit's Cart</h1>
 </div>
 
 ## Table of content
@@ -14,7 +14,7 @@
 
 ## About
 
-- Techgiz is E-commerce web app build with ReactJs and vanilla CSS. Here you can buy variety of headphones of different brands and types.
+- Amit's cart is E-commerce web app build with ReactJs and Node.js . Here you can buy variety of products of different brands and types.
 
 ## 🛠️ Tech Used
 
@@ -24,39 +24,30 @@
 - axios
 - React icons
 - Mantine
+-MongoDB
+-NodeJs
+-ExpressJs
+-JwtToken
 
 ## 🚀 Live Link
 
-- [TechGiz-E-commerce](https://amitcart.vercel.app/)
+- [Amit'sCart-E-commerce](https://amitcart.vercel.app/)
 
-## 🧑‍💻 Features
+## 🧑‍💻 Description
+A website have a landing login page which redirects to products page (or home page) where you can select different products and check out the descriptions , There will be  a contact page where you can contact and send a message to me.
 
-### Home Page
 
-- Landing page with categories and brands listed, clicking on any of them redirect to product listing page with selected category or brand applied as filter
 
-### Product Listing
 
-- On the home page user can see all products
-- user can add products in cart``
-### Product Details Page
-
-- On click on any product card it will redirect to product details page which shows all details about product 
-
-### Cart Management
-- All products added in cart listed in this page. here user can
-  - Remove product from cart
-  - Increase/Decrease quantity of product
-  - See all price details of cart products
 
 
 ### Authentication
 
-- Techgiz has Login, Signup and Logout functionality
+- Amit's Cart has Login, Signup and Logout functionality
 
 ## ⚛️ Getting Started
 
-- Clone the repository on your local machine with the command below in your terminal and cd into *TechGiz-ecommerce* folder.
+- Clone the repository on your local machine with the command below in your terminal and cd into *amitcart* folder.
 
 sh
 git clone https://github.com/amitsahu03/amitcart.git
@@ -81,10 +72,4 @@ REACT_APP_ENV = "dev"
 sh
 npm start
 
-
-## 📸 ScreenShots
-
-<img src="https://files.catbox.moe/ojhvms.png" >
-<img src="https://files.catbox.moe/o5bnt5.png" >
-<img src="https://files.catbox.moe/b2qwrp.png" >
-<img src="https://files.catbox.moe/eevvzb.png" >
+<h1>Backend Link -- https://github.com/amitsahu03/amitcart-backend</h1
