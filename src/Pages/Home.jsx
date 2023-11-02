@@ -6,7 +6,7 @@ import { setLogged } from '../redux/slices/authSlice';
 import { verifyTokenApi } from '../api/authService';
 import { getProductsApi } from '../api/products';
 import { setProducts } from '../redux/slices/productsSlice';
-import ProductCard from '../components/Home/ProductCard';
+import ProductCard from '../Components/Home/ProductCard';
 
 
 const Home = () => {
