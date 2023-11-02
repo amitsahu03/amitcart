@@ -1,6 +1,6 @@
 import axiosInstance from "axios";
 
-const url = process.env.REACT_APP_ENV === 'dev'? "http://localhost:5000" : "https://amitcart-backend.vercel.app";
+const url = process.env.REACT_APP_ENV === 'dev'? "http://localhost:5000" : "";
 
 const axios = axiosInstance.create({
     baseURL: url,
