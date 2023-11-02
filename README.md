@@ -38,11 +38,11 @@ A website have a landing login page which redirects to products page (or home pa
 
 ### Authentication
 
-- Techgiz has Login, Signup and Logout functionality
+- Amit's Cart has Login, Signup and Logout functionality
 
 ## ⚛️ Getting Started
 
-- Clone the repository on your local machine with the command below in your terminal and cd into *TechGiz-ecommerce* folder.
+- Clone the repository on your local machine with the command below in your terminal and cd into *amitcart* folder.
 
 sh
 git clone https://github.com/amitsahu03/amitcart.git
